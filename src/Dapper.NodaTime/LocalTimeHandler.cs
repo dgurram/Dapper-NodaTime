@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using NodaTime;
 
-#if NETSTANDARD1_3
+#if NETSTANDARD1_6
 using DataException = System.InvalidOperationException;
 #endif
 
